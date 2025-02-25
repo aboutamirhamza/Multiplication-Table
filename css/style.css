@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Convergence&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Common Css Start Here */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-font: "Convergence", serif;
+    --secondary-font: "Poppins", sans-serif;
+    --primary-color: rgb(0, 229, 255);
+    --secondary-color: rgb(217, 152, 0);
+    --default-color: #000;
+    
+}
+
+body{
+    background: #f8e4ff;
+}
+
+::selection{
+    background-color: orangered;
+    color: #fff;
+}
+
+
+h1,h2,h3,h4,h5,h6,p,div,span,dl,dt,ul,ol,pre,form,fieldset,legend,table,caption{
+    margin: 0;
+    padding: 0;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}   
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+/* Common Css End Here */
+
+/* Namta Css Start Here */
+#namta .main .heading h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--default-color);
+    text-align: center;
+    font-family: var(--primary-font);
+    text-transform: capitalize;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#namta .main .inputData{
+    padding: 10px 30px;
+    background: rgb(174,175,238);
+    background: radial-gradient(circle, rgba(174,175,238,1) 0%, rgba(148,233,186,1) 100%);
+    border: none;
+    font-size: 30px;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+#namta .main .table__main{
+    display: flex;
+}
+
+#namta .main h3{
+    font-size: 30px;
+}
+
+#namta .main .table__main .input{
+    width: 50%;
+    margin-left: 160px;
+}
+
+#namta .main .table__main .biut{
+    width: 50%;
+}
+
+#namta .main .biut .btn{
+    padding: 15px 30px;
+    font-size: 18px;
+    border: 1px solid #222;
+    cursor: pointer;
+    background: transparent;
+    transition: all linear .3;
+}
+
+#namta .main .biut .btn:hover{
+    border: none;
+    background: var(--secondary-color);
+}
+
+.warning{
+    color: red;
+    margin-left: 160px;
+    margin-bottom: 30px;
+}
+
+.alignment{
+    margin-left: 160px;
+    margin-bottom: 50px;
+}
+/* Namta Css End Here */
+
+
+
+
